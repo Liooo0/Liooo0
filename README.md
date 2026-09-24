@@ -6,18 +6,20 @@
 
 ## ⭐ Featured
 
-| 项目 | 一句话 | 技术栈 |
-| --- | --- | --- |
-| 🖥️ [LioDesktop](https://github.com/Liooo0/liodesktop) | 桌面 AI 工作台：资讯雷达 + 传闻核验 + 多供应商 LLM 问答 | Python · pywebview · Flask · SQLite |
-| 🏠 [Renovation Bot](https://github.com/Liooo0/renovation-bot) | 装修获客 AI 客服：咨询 → 留资抽取 → 意向评分 → 老板推送，已交付真实客户 | Flask · DeepSeek · 规则引擎 · 钉钉 |
-| ⚔️ [LLM Arena](https://github.com/Liooo0/llm-arena) | 模型评测平台：双盲对战 + Elo 排行 + 成本/延迟画像 | FastAPI · asyncio · SQLite |
-| 💼 [BOSS Helper](https://github.com/Liooo0/boss-zhipin-helper) | 求职 Chrome 扩展：JD 解析 + AI 招呼语 + 投递统计 | Chrome MV3 · IndexedDB |
+| 项目 | 一句话 | 亮点与数据 | 技术栈 |
+| --- | --- | --- | --- |
+| 🎯 [Job Hunter](https://github.com/Liooo0/job-hunter) | AI 辅助求职工作流 | 6,100+ 真实投递 · 纯 Python 零 Token 规则引擎 · 拟真慢投与抗风控 | Python · DrissionPage · SQLite |
+| 💼 [BOSS Helper](https://github.com/Liooo0/boss-zhipin-helper) | 求职 Chrome MV3 扩展 | 职位 JD 一键提炼 · AI 拟人打招呼 · 沟通辅助与多平台适配 | Chrome MV3 · IndexedDB · DeepSeek |
+| 📊 [JobIntel Dashboard](https://github.com/Liooo0/jobintel-dashboard) | 4万+ 求职数据决策看板 | 纯原生自写 SVG 零依赖可视化 · 薪资归一化 · 投递复盘 | FastAPI · 只读 SQLite · 原生前端 |
+| 🏠 [Renovation Bot](https://github.com/Liooo0/renovation-bot) | 装修获客 AI 客服 | 真实商业交付：双库分层知识库 + 意向规则打分 + 实时推送老板 | Flask · DeepSeek · 规则引擎 · 钉钉 |
+| ⚔️ [LLM Arena](https://github.com/Liooo0/llm-arena) | 模型双盲评测与选型平台 | 181 条真实模型回答对战 · 产出商业选型报告与成本延迟画像 | FastAPI · asyncio · SQLite |
+| 🖥️ [LioDesktop](https://github.com/Liooo0/liodesktop) | 桌面 AI 工作台 | 资讯雷达 + 传闻核验 + 多供应商 LLM 聚合问答 | Python · pywebview · Flask · SQLite |
 
 ## 📦 More
 
 | 项目 | 说明 |
 | --- | --- |
-| 📊 [JobIntel Dashboard](https://github.com/Liooo0/jobintel-dashboard) | 3 万+条真实投递数据可视化，用数据做求职决策 | FastAPI · 只读 SQLite · 自写 SVG |
+| 🏎️ [FL5 3D Cutaway](https://github.com/Liooo0/lio-fl5-3d) | Civic Type-R FL5 交互式 3D 透视展示 (Three.js) |
 | 🐋 [Whale Abyss](https://github.com/Liooo0/whale-abyss) | 深海声呐弹幕幸存者 HTML5 小游戏，纯原生 JS |
 | 📸 [Photo Portfolio](https://github.com/Liooo0/lio-photo-portfolio) | 摄影作品集：延时 / 日出 / 星空 |
 | 📝 [博客](https://liooo0.github.io/lio-blog/) | 项目复盘与技术笔记（Astro） |
