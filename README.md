@@ -2,17 +2,16 @@
 
 **AI 应用工程师 · 把 LLM 落到真实业务里**
 
-> 做的不是 Demo，是有真实用户在跑的 AI 系统：装修公司的获客客服、自己的求职工作流、模型选型工具。每个项目都有数据、有测试、有交付。
+> 在跑的系统：一位个人房东的收租台账（100+ 间房，本地部署、数据不出内网）、装修获客 AI 客服（8 月内测）、自己的求职工作流（近 2,000 次有效投递）。
 
 ## ⭐ Featured
 
 | 项目 | 一句话 | 亮点与数据 | 技术栈 |
 | --- | --- | --- | --- |
-| 🎯 [Job Hunter](https://github.com/Liooo0/job-hunter) | AI 辅助求职工作流 | 6,100+ 真实投递 · 纯 Python 零 Token 规则引擎 · 拟真慢投与抗风控 | Python · DrissionPage · SQLite |
-| 💼 [BOSS Helper](https://github.com/Liooo0/boss-zhipin-helper) | 求职 Chrome MV3 扩展 | 职位 JD 一键提炼 · AI 拟人打招呼 · 沟通辅助与多平台适配 | Chrome MV3 · IndexedDB · DeepSeek |
-| 📊 [JobIntel Dashboard](https://github.com/Liooo0/jobintel-dashboard) | 4万+ 求职数据决策看板 | 纯原生自写 SVG 零依赖可视化 · 薪资归一化 · 投递复盘 | FastAPI · 只读 SQLite · 原生前端 |
-| 🏠 [Renovation Bot](https://github.com/Liooo0/renovation-bot) | 装修获客 AI 客服 | 真实商业交付：双库分层知识库 + 意向规则打分 + 实时推送老板 | Flask · DeepSeek · 规则引擎 · 钉钉 |
-| ⚔️ [LLM Arena](https://github.com/Liooo0/llm-arena) | 模型双盲评测与选型平台 | 181 条真实模型回答对战 · 产出商业选型报告与成本延迟画像 | FastAPI · asyncio · SQLite |
+| 🏠 租赁收租管理系统（私有项目） | 个人房东的收租台账 | 100+ 间房日常在用：租客台账 / 收租打卡 / 水电抄表 / 账单核对；本地部署、数据不出内网、每日自动备份 | Python · Flask · SQLite |
+| 🏗️ [Renovation Bot](https://github.com/Liooo0/renovation-bot) | 装修获客 AI 客服 | 8 月内测：15 组典型/边界用例 + 26 条对话样本，链路跑通；「LLM 只抽取 / 规则引擎打分」确定性设计 | Flask · DeepSeek · 规则引擎 · 钉钉 |
+| 🎯 AI 求职工作流 · [投递引擎](https://github.com/Liooo0/job-hunter) / [浏览器扩展](https://github.com/Liooo0/boss-zhipin-helper) / [数据看板](https://github.com/Liooo0/jobintel-dashboard) | 从投递到复盘的自建工作流 | 近 2,000 次有效投递 · 4.7 万条岗位判定记录 · 纯规则引擎零 Token 打分 · 627 项回归测试 · 限速与熔断 | Python · Chrome MV3 · FastAPI · SQLite |
+| ⚔️ [LLM Arena](https://github.com/Liooo0/llm-arena) | 模型双盲评测与选型平台 | 181 条真实模型回答对战 · 产出选型报告与成本延迟画像 | FastAPI · asyncio · SQLite |
 | 🖥️ [LioDesktop](https://github.com/Liooo0/liodesktop) | 桌面 AI 工作台 | 资讯雷达 + 传闻核验 + 多供应商 LLM 聚合问答 | Python · pywebview · Flask · SQLite |
 
 ## 📦 More
@@ -34,8 +33,8 @@
 
 ## 🌱 当前在做
 
-- 把求职自动化从「投了多少」推进到「哪些值得投」：用真实投递数据拟合回复率，做 Job Fit Score
-- 给现有项目补流式输出、错误分级、成本画像——把「能跑」升级成「可交付」
+- 把手上的 AI 系统从「能跑」推进到「可交付」：补流式输出、错误分级、成本画像
+- 求职数据分析：用真实投递记录拟合回复率，做岗位匹配打分
 
 ## 🚗 其他
 
